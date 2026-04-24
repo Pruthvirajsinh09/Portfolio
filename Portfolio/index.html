@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo-Brutalist Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Outfit:wght@800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-white">
+
+    <nav class="navbar bg-skyblue brutal-border">
+        <div class="nav-content">
+            <a href="#" class="logo">PRUTHVIRAJ VADHEL</a>
+            <button class="menu-toggle bg-yellow brutal-border brutal-hover" id="mobile-menu-btn"
+                aria-label="Toggle navigation">
+                ☰
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link brutal-hover">About</a></li>
+                <li><a href="#services" class="nav-link brutal-hover">Services</a></li>
+                <li><a href="#work" class="nav-link brutal-hover">Work</a></li>
+                <li><a href="#contact" class="btn bg-pink brutal-border">Say Hi!</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero container" id="about">
+            <div class="hero-content">
+                <div class="hero-text-wrapper">
+                    <h1 class="hero-title">HELLO! I AM <br>WEB DEVELOPER <br><span
+                            class="highlight bg-yellow brutal-border">AWESOME</span> UI's</h1>
+                    <p class="hero-subtitle">I specialise in building web applications that engage and retain users
+                        while maintaining clean, scalable code.</p>
+                    <div class="hero-actions">
+                        <a href="#work" class="btn btn-lg bg-green brutal-border bounce-btn">Explore Work</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Decorative Brutalist Shapes -->
+            <div class="shape shape-circle bg-pink brutal-border spin-anim"></div>
+            <div class="shape shape-square bg-red brutal-border float-anim"></div>
+            <div class="shape shape-star bg-blue brutal-border pulse-anim">*</div>
+        </section>
+
+        <!-- Marquee Section -->
+        <section class="marquee-section bg-yellow brutal-border-top-bottom">
+            <div class="marquee font-bold">
+                <h2>+++ DESIGNED WITH PASSION +++ CODE THAT SCALES +++ PIXEL PERFECT UIs +++ DESIGNED WITH PASSION +++
+                    CODE THAT SCALES +++ PIXEL PERFECT UIs </h2>
+            </div>
+        </section>
+
+        <!-- Services / Added Cards -->
+        <section class="services container" id="services">
+            <h2 class="section-title">WHAT I DO</h2>
+            <div class="service-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card tilt-left bg-green brutal-border animated-card">
+                    <div class="card-icon bg-white brutal-border">🎨</div>
+                    <h3>WEB DESIGN</h3>
+                    <p>Creating highly engaging, colorful, and unique visual experiences that stand out from the crowd.
+                    </p>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card tilt-right bg-pink brutal-border animated-card"
+                    style="transition-delay: 0.1s;">
+                    <div class="card-icon bg-white brutal-border">⚡</div>
+                    <h3>FRONTEND</h3>
+                    <p>Building lightning-fast, interactive web apps using modern frameworks like React and Next.js.</p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card tilt-left bg-skyblue brutal-border animated-card"
+                    style="transition-delay: 0.2s;">
+                    <div class="card-icon bg-white brutal-border">📱</div>
+                    <h3>RESPONSIVE UI</h3>
+                    <p>Ensuring every pixel looks completely flawless perfectly on desktops, tablets, and phones.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works Section -->
+        <section class="projects container" id="work">
+            <h2 class="section-title">SELECTED WORK</h2>
+
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card bg-white brutal-border animated-card hover-lift">
+                    <div class="project-img-container brutal-border-bottom">
+                        <img src="assets/invoice_dashboard.png" alt="Invoice Management System Dashboard">
+                    </div>
+                    <div class="project-info bg-skyblue">
+                        <h3>INVOICE SYSTEM</h3>
+                        <p>Full-stack dashboard for tracking and generating client invoices.</p>
+                        <div class="tags" style="margin-bottom: 1.5rem;">
+                            <span class="tag bg-white brutal-border">PHP</span>
+                            <span class="tag bg-blue text-white brutal-border">MySQL</span>
+                        </div>
+                        <a href="https://github.com/Pruthvirajsinh09/Invoice-Management-Systemm" target="_blank"
+                            class="btn bg-pink brutal-border bounce-btn"
+                            style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.9rem;">VIEW ON GITHUB
+                            -></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-white brutal-border animated-card hover-lift">
+                    <div class="project-img-container brutal-border-bottom">
+                        <img src="assets/shopease_dashboard.png" alt="ShopEase Dashboard">
+                    </div>
+                    <div class="project-info bg-skyblue">
+                        <h3>ShopEase</h3>
+                        <p>Website that is Used for Face-Biometric Based Billing System.</p>
+                        <div class="tags" style="margin-bottom: 1.5rem;">
+                            <span class="tag bg-white brutal-border">Python</span>
+                            <span class="tag bg-white brutal-border">OpenCV</span>
+                            <span class="tag bg-blue text-white brutal-border">MySQL</span>
+                        </div>
+                        <a href="https://github.com/Pruthvirajsinh09/ShopEase" target="_blank"
+                            class="btn bg-pink brutal-border bounce-btn"
+                            style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.9rem;">VIEW ON GITHUB
+                            -></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <!-- Project 3 -->
+                <div class="project-card bg-white brutal-border animated-card hover-lift">
+                    <div class="project-img-container brutal-border-bottom">
+                        <img src="assets/inventory_dashboard.png" alt="Inventory Management System Dashboard">
+                    </div>
+                    <div class="project-info bg-skyblue">
+                        <h3>INVENTORY MANAGEMENT SYSTEM</h3>
+                        <p>It Stores Product Data and Make Reports Sales and Stocks.</p>
+                        <div class="tags" style="margin-bottom: 1.5rem;">
+                            <span class="tag bg-white brutal-border">PHP</span>
+                            <span class="tag bg-blue text-white brutal-border">MySQL</span>
+                        </div>
+                        <a href="https://github.com/Pruthvirajsinh09/Inventory-Management-System" target="_blank"
+                            class="btn bg-pink brutal-border bounce-btn"
+                            style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.9rem;">VIEW ON GITHUB
+                            -></a>
+                    </div>
+                </div>
+
+                <!-- Project 4 (New) -->
+                <div class="project-card bg-white brutal-border animated-card hover-lift"
+                    style="transition-delay: 0.3s;">
+                    <div class="project-img-container brutal-border-bottom"
+                        style="background:#555; display:flex; align-items:center; justify-content:center; color:white;">
+                        <h2 style="font-size:3rem;">MORE SOON</h2>
+                    </div>
+                    <div class="project-info bg-green">
+                        <h3>FUTURE MAGIC</h3>
+                        <p>Always building something new and cool.</p>
+                        <div class="tags">
+                            <span class="tag bg-white brutal-border">Secret</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Fun Middle Break -->
+        <div class="banner bg-red brutal-border-top-bottom">
+            <div class="marquee-2 font-bold">
+                <h2>LET'S MAKE SOMETHING COOL TOGETHER --- LET'S MAKE SOMETHING COOL TOGETHER ---</h2>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <section class="contact container" id="contact">
+            <div class="contact-grid">
+                <div class="contact-text animated-card">
+                    <h2 class="section-title">GET IN TOUCH</h2>
+                    <p class="font-bold" style="margin-bottom: 2rem;">Got a crazy idea? Need a colorful redesign? Drop a
+                        message!</p>
+
+                    <div class="contact-links" style="display: flex; flex-direction: column; gap: 1rem;">
+                        <a href="mailto:your.email@example.com" class="btn bg-white brutal-border brutal-hover"
+                            style="display: flex; align-items: center; gap: 10px; width: fit-content;">
+                            <span style="font-size: 1.5rem;">📧</span> pruthvirajsinh1018@gmail.com
+                        </a>
+                        <a href="tel:+910000000000" class="btn bg-white brutal-border brutal-hover"
+                            style="display: flex; align-items: center; gap: 10px; width: fit-content;">
+                            <span style="font-size: 1.5rem;">📱</span> +91 7285054705
+                        </a>
+                        <a href="https://linkedin.com/in/" target="_blank"
+                            class="btn bg-white brutal-border brutal-hover"
+                            style="display: flex; align-items: center; gap: 10px; width: fit-content;">
+                            <span style="font-size: 1.5rem;">💼</span> linkedin.com/in/pruthvirajsinh-vadhel-823146342
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper bg-yellow brutal-border animated-card" style="transition-delay: 0.2s;">
+                    <form class="contact-form bg-white brutal-border">
+                        <label class="font-bold">YOUR NAME</label>
+                        <input type="text" class="brutal-input brutal-border" required>
+
+                        <label class="font-bold">EMAIL</label>
+                        <input type="email" class="brutal-input brutal-border" required>
+
+                        <label class="font-bold">MESSAGE</label>
+                        <textarea rows="4" class="brutal-input brutal-border" required></textarea>
+
+                        <button class="btn btn-lg bg-blue text-white brutal-border submit-btn bounce-btn">SEND IT
+                            -></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black text-white">
+        <div class="footer-content container">
+            <h2 class="logo">PRUTHVIRAJ VADHEL</h2>
+            <p>DESIGNED WITH <span class="bg-skyblue text-black brutal-border"
+                    style="padding: 2px 8px; font-weight:bold;">BRUTAL</span> PASSION</p>
+        </div>
+    </footer>
+
+    <!-- GSAP Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
